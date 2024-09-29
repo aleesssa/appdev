@@ -253,9 +253,9 @@ nav{
         font-family: 'Roboto Mono';
         justify-content: space-evenly;
         margin-inline: 2.4vw;
-        padding: 4vw;
+        padding: 2.5vw;
         margin-top: 2.4vw;
-        font-size: 1.44vw;
+        font-size: 20px;
     }
 }
 
@@ -297,8 +297,8 @@ p{
 }
 
 .second-point, .fourth-point, .sixth-point, .eighth-point, .tenth-point{
-    color: var(--primary);
-    background: linear-gradient(225deg, var(--primary) 10%, var(--secondary) 80%, var(--primary) 100%);
+    color: var(--third);
+    background: linear-gradient(225deg, var(--primary) 10%, var(--fourth) 80%, var(--primary) 100%);
     padding-bottom: 8vw;
     h2{
         color: var(--secondary);
@@ -373,6 +373,18 @@ footer{
             font-size: 2vw;
         }
     }
+
+    .predictions{
+        ul{
+            flex-direction: column;
+        }
+
+        li{
+            padding: 10vw;
+            font-size: 3vw;
+        }
+
+    } 
 }
 
 @media screen and (max-width: 600px){
