@@ -11,11 +11,11 @@
 }
 
 :root {
-    --primary: #d5573b;
-    --secondary: #885053;
-    --third: #e9f5e1;
-    --fourth: #94c9a9;
-    --fifth :  #c6ecae;
+    --primary: #0b0b31;
+    --secondary: #ffffff;
+    --third: #ffffff;
+    --fourth: #5644bf;
+    --fifth :  #aeb3ec; 
 
 }
 
@@ -72,7 +72,7 @@ body, html {
 }
 
 body {
-    background-color: rgb(11, 11, 49);     
+    background-color: #0b0b31;     
     font-family: 'Poppins';
 }
 
@@ -91,6 +91,11 @@ h2{
 
 .column{
     h3{
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    h4{
         margin-top: 20px;
     }
 }

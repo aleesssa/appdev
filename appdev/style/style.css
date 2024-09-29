@@ -5,11 +5,11 @@
 
 
 :root {
-    --primary: #D5573B;
-    --secondary: #885053;
-    --third: #e9f5e1;
-    --fourth: #94C9A9;
-    --fifth :  #C6ECAE;
+    --primary: #0b0b31;
+    --secondary: #ffffff;
+    --third: #ffffff;
+    --fourth: #5644bf;
+    --fifth :  #aeb3ec; 
 
   }
 
@@ -106,7 +106,7 @@ main{
     border-radius: 3px;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
-    box-shadow: .2rem .2rem #70828b;
+    box-shadow: .2rem .2rem var(--third);
     transition: transform .1s ease-in-out;
 }
 
@@ -162,7 +162,7 @@ nav{
     cursor: pointer;
     transition: all .3s ease-in-out;
     transition-delay: 0.25s;
-    box-shadow: .15rem .15rem #70828b, 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: .15rem .15rem var(--third), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 
@@ -183,7 +183,7 @@ nav{
 }
 
 .nav-header:hover .dot{
-    background-color: rgba(66, 66, 205, 0.532);
+    background-color: var(--fifth);
 }
 
 .nav-header-focused{
@@ -205,7 +205,7 @@ nav{
     text-align: center;
     width: 300px;
     padding: 14px;
-    box-shadow: .15rem .15rem #70828b;  
+    box-shadow: .15rem .15rem var(--third);  
     list-style: none;
 }
 

@@ -3,26 +3,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 :root {
-    --primary: #D5573B;
-    --secondary: #885053;
-    --third: #e9f5e1;
-    --fourth: #94C9A9;
-    --fifth :  #C6ECAE;
+    --primary: #0b0b31;
+    --secondary: #ffffff;
+    --third: #ffffff;
+    --fourth: #5644bf;
+    --fifth :  #aeb3ec; 
 }
 
 /*GENERAL*/
+
+*{
+    box-sizing: border-box ;
+    padding: 0%;
+    margin: 0%
+}
 
 html{
     scroll-behavior: smooth;
 }
 
-*{
-    padding: 0%;
-    margin: 0%
+body{
+
+    background-color: var(--primary);   
+    overflow-x: hidden;
 }
 
-body{
-    overflow-x: hidden;
+html, body{
+    height: 100%;
+}
+
+.bg-img{
+    background-image: linear-gradient(rgba(9, 24, 82, 0.621), hsl(240, 73%, 12%)), url("https://cdn-cchkmpj.nitrocdn.com/CJXGnJvCvbQYOSNVvxpLvOYcHhpJDKbH/assets/images/optimized/rev-5cd9fd5/ossisto.com/wp-content/uploads/2024/03/10-steps-on-how-to-create-a-Custom-web-application-development.webp");
+    filter: blur(7px);
+    -webkit-filter: blur(7px);
+    /* Set a specific height */
+    height: 50%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.bg-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translate(-25%, -25%);
+    color: white;
+    h1{
+        align-self: center;
+        font-size: 100px;
+    }
+
+    h3{
+        margin: 0;
+        width: 100%;
+        align-self: center;
+        font-size: 1.12em;
+    }
+
+
 }
 
 a{
@@ -35,9 +82,9 @@ h1{
     font-family: Poppins, Arial, Helvetica, sans-serif;
     font-size: 8vw;
     color: var(--secondary);
-    padding-top: 16vw;
+    /* padding-top: 16vw;
     margin-left: 8vw;
-    margin-bottom: 0px;
+    margin-bottom: 0px; */
 }
 
 h3{
@@ -48,24 +95,6 @@ h3{
     color: var(--secondary);
 }
 
-.mula{
-    a{
-        font-family: 'Roboto Mono';
-        display: inline-block;
-        margin-top: 1.6vw;
-        margin-left: 8vw;
-        color: black;
-        padding: 0.8vw;
-        background-color: white;
-        border-radius: 5px;
-        box-shadow: .2rem .2rem var(--primary);
-    }
-    a:hover{
-        box-shadow: none;
-        transform: translate(5px, 5px);
-    }
-}
-
 nav{
     display: flex;
     flex-direction: column;
@@ -74,6 +103,7 @@ nav{
     font-size: 17px;
     height: 200px;
     width: auto;
+    z-index: 2;
     color: rgb(35, 54, 35);
     border-radius: 4px;
     transition: all 0.25s ease-in-out;
@@ -94,7 +124,7 @@ nav{
     align-items: center;
     width: 100px;
     padding: 14px;
-    background-color: var(--third);
+    background-color: #ffffff;
     border-radius: 7px;
     box-shadow: .15rem .15rem var(--primary);
     cursor: pointer;
@@ -106,13 +136,14 @@ nav{
     }
     .dot{
         display: inline-block;
-        height: 10px;
-        width: 10px;
+        height: 12px;
+        width: 12px;
         border: #000 2px solid;
         border-radius: 100px;
         transition: all .14s ease-in-out;
     }
 }
+
 .nav-header:hover .dot{
     background-color: var(--fifth);
 }
@@ -149,7 +180,7 @@ nav{
         height: 100%;
     }
     li:hover{
-        background-color: var(--third);
+        background-color: whitesmoke;
     
     }
     a:visited{
@@ -165,32 +196,7 @@ nav{
     transform: translateY(-3em);
 }
 
-/*
-nav{
-    font-family: monospace;
-    font-size: 1.36vw;
-    margin-top: 7.2vw;
-    margin-left: 10vw;
-    ul{
-        list-style: none;
-    }
-    li{
-        background-color: white;
-        text-align: center;
-        padding: 0.8vw;
-    }
-    li:last-child{
-        border-radius: 0 0 7px 7px;
-    }
-    li:hover{
-        background-color: var(--third);
-    }
-    a{
-        padding-inline: 1.6vw;
-        color: var(--secondary);
-    }
-}
-*/
+
 
 /*INTRODUCTION*/
 
@@ -198,7 +204,7 @@ nav{
     display: flex;
     padding-top: 8vw;
     padding-bottom: 8vw;
-    background: linear-gradient(225deg, var(--primary) 0%, var(--secondary) 50%, var(--primary) 100%);
+    background-color: var(--primary);
     color: var(--third);
     list-style-position: inside;
     img{
@@ -269,7 +275,7 @@ p{
 
 .first-point, .third-point, .fifth-point, .seventh-point, .ninth-point{
     color: black;
-    background: linear-gradient(45deg, var(--fifth) 0%, var(--fourth) 50%, var(--fifth) 100%);
+    background: linear-gradient(50deg, var(--fifth) 0%, var(--fourth) 30%, var(--fifth) 100%);
     padding-bottom: 8vw;
     h2{
         color: var(--secondary);
@@ -283,10 +289,6 @@ p{
         border-radius: 10px;
         box-shadow: 5px 5px var(--primary);
     }
-    li:hover{
-        box-shadow: none;
-        transform: translate(5px, 5px);
-    }
 
     p{
         
@@ -295,11 +297,11 @@ p{
 }
 
 .second-point, .fourth-point, .sixth-point, .eighth-point, .tenth-point{
-    color: var(--third);
-    background: linear-gradient(225deg, var(--primary) 0%, var(--secondary) 50%, var(--primary) 100%);
+    color: var(--primary);
+    background: linear-gradient(225deg, var(--primary) 10%, var(--secondary) 80%, var(--primary) 100%);
     padding-bottom: 8vw;
     h2{
-        color: var(--fifth);
+        color: var(--secondary);
     }
     strong{
         color: var(--fourth);
@@ -309,10 +311,6 @@ p{
         background-color: var(--third);
         border-radius: 10px;
         box-shadow: 5px 5px var(--fourth);
-    }
-    li:hover{
-        box-shadow: none;
-        transform: translate(5px, 5px);
     }
     
     p{
@@ -330,15 +328,10 @@ p{
         border-radius: 10px;
         box-shadow: 10px 10px var(--third);
     }
-    img:hover{
-        box-shadow: none;
-        transform: translate(10px, 10px);
-    }
 }
 
 footer{
     background-color: #e0e7ff;
-    margin-top: 200px;
     padding: 20px;
     width: 100%;
     font-family: 'Poppins';
@@ -348,4 +341,50 @@ footer{
     ul{
         list-style: none;
     }
+}
+
+
+@media screen and (max-width: 1000px){
+    .mula{
+        h1{
+            font-size: 12vw;
+        }
+    }
+
+    .intro{
+        flex-direction: column;
+    
+
+        img{
+            margin: 0;
+            align-self: center;
+            width: 50%;
+            height: auto;
+        }
+
+
+
+        p{
+            margin-top: 30px;
+            font-size: 2vw;
+        }
+
+        a{
+            font-size: 2vw;
+        }
+    }
+}
+
+@media screen and (max-width: 600px){
+
+
+        p{
+            margin-top: 30px;
+            font-size: 4vw !important;
+        }
+
+        a{
+            
+            font-size: 4vw !important;
+        }
 }

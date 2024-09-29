@@ -1,98 +1,58 @@
 <!DOCTYPE html>
 <html>
-    <style>
-        main{
-            display: flex;
-            background-image: url('img/mainbg.png');
-            background-size: 100vw 115vh;
-            height: 100vh;
-        }
-    </style>
     <head>
         <link href="style/ps.css" type="text/css" rel="stylesheet">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Predictions and Suggestions</title>
     </head>
     <body>
-        <main id="title" >
-            <div class="mula">
-                <h1>Predictions</h1>
-                <h3>of the future of Application Development</h3>
-                <a href="#intro">Learn more</a>
-            </div>
-            <nav id="nav" class="nav-absolute">
-                <div id="nav-header" class="nav-header nav-header-focused">
+        <div class="bg-img"></div>            
+        <nav id="nav" class="nav-fixed">
+                <div id="nav-header" class="nav-header">
                     <h5>INDEX</h5>
                     <span class="dot"></span>
                 </div>
-                <ul id="index" class="index">
-                    <li><a href="index.html">What is application development?</a></li>
-                    <li><a href="analysis.html">Application Development Analysis</a></li>
-                    <li><a href="ps.html">Prediction and Suggestions</a></li>
-                    <li><a href="cr.html">Conclusion and References</a></li>
+                <ul id="index" class="index index-hidden">
+            <li><a href="index.html#intro">Main Page</a></li>
+            <li><a href="analysis.html">Analysis</a></li>
+            <li><a href="ps.html">Predictions</a></li>
+            <li><a href="cr.html">Conclusion</a></li>
                 </ul>
-            </nav>
+        </nav>
+        <main id="title" class="bg-text" >
+            <div class="mula">
+                <h1>Predictions</h1>
+                <h3>of the future of Application Development</h3>
+            </div>
+
         </main>
+       
         <div class="intro" id="intro">
-            <img src="img/intro.png" height="500">
+            <img src="img/ps/intro.png" height="500">
             <div>
-                <p>Technology is an ever-evolving field. The most advanced software today may become outdated in the next few years. The agile app development industry is always growing to keep up with the changes in market demands and user behaviour. New trends may also appear due to technological advancements in favour of more productive techniques or methods that promise better outcomes. We must keep up with the latest app development trends to reap the benefits of this rapidly evolving market to work in the most productive and efficient way possible.
+                <p>Technology is an ever-evolving field. We must keep up with the latest app development trends to reap the benefits of this rapidly evolving market to work in the most productive and efficient way possible.
                     <br>
                     Here are some predictions of what the future of application development will consist of:</p>
                     <br><br>
                 <ul>
-                    <li><a href='#first-point'>Artificial Intelligence (AI) and Machine Learning (ML)</a></li>
-                    <li><a href='#second-point'>5G Technology</a></li>
-                    <li><a href='#third-point'>Augmented Reality (AR) and Virtual Reality (VR)</a></li>
-                    <li><a href='#fourth-point'>Internet of Things (IoT)</a></li>
-                    <li><a href='#fifth-point'>Progressive Web Apps (PWAs)</a></li>
-                    <li><a href='#sixth-point'>Blockchain Technology</a></li>
-                    <li><a href='#seventh-point'>Cross-Platform App Development</a></li>
-                    <li><a href='#eighth-point'>Cloud-Driven Apps</a></li>
-                    <li><a href='#ninth-point'>Edge Computing</a></li>
-                    <li><a href='#tenth-point'>Quantum Computing</a></li>
+                    <li><a href='#first-point'>5G Technology</a></li>
+                    <li><a href='#second-point'>Augmented Reality (AR) and Virtual Reality (VR)</a></li>
+                    <li><a href='#third-point'>Cross-Platform App Development</a></li>
+                    <li><a href='#fourth-point'>Quantum Computing</a></li>
                 </ul>
             </div>
         </div>
         <div class="predictions">
             <div class="first-point" id="first-point">
-                <h2>Artificial Intelligence (AI) and Machine Learning (ML)</h2>
-                <img src="img/aiml.jpeg">
-                <p>
-                    Artificial Intelligence (AI) and Machine Learning (ML) is by no means a new technology in app development. But as AI and ML become more sophisticated, so will app capabilities.
-                    AI delivers a human-like problem-solving experience by leveraging data. These technologies allow apps to analyse and learn from user behaviour, then make intelligent predictions or recommendations on their own based on that data to suit users' behavioural patterns and preferences.
-                    <br>
-                    Looking ahead, we can expect AI to further improve app experiences through:
-                    <br><br>
-                    <ul>
-                        <li><strong>Enhanced Security Measure:</strong>
-                            <br><br>
-                            AI can further enhance safety features through biometric markers like advanced facial and speech recognition. AI and ML can also improve user safety and data security, and help spot fraud. Advanced algorithms are used to detect fraudulent activities, ensuring safer financial interactions.
-                        </li>
-                        <br>
-                        <li><strong>Emotion and Intention-based Commands:</strong>
-                            <br><br>
-                            Voice assistants could interpret not just words but the user’s emotional state or intent, leading to more nuanced interactions.
-                        </li>
-                        <br>
-                        <li><strong>Deeper Behavioural Insights:</strong>
-                            <br><br>
-                            Enhanced algorithms will offer even more precise predictions of user behaviour, enabling hyper-personalized app experiences.
-                        </li>
-                    </ul>
-                </p>
-                <p>By integrating these advancements, apps will become more adaptive and responsive to user needs, setting new standards for interactivity and personalization.</p>
-            </div>
-            <div class="second-point" id="second-point">
                 <h2>5G Technology</h2>
-                <img src="img/5g.png">
+                <img src="img/ps/5g.png">
                 <p>
                     Speed is the focus of 5G. 5G is capable of operating at 100x the speed of most existing networks. Due to its high speed, information is transferred in milliseconds, which reduces latency from trillions to billions and provides a better user experience. 5G technology will open the door for the implementation of more sophisticated and data hungry applications. The introduction of 5G networks will guarantee the unmatched speed, bandwidth, and connectivity of apps.
                     <br><br>
                     <ul>
                         <li><strong>Ultra-fast speeds:</strong>
                             <br><br>
-                            This means you can have real-time conversations through video calls without any annoying delays. 5G's high data transmission speed and capacity can also enhance the performance of data-heavy apps, like those used for streaming 4K videos or AR/VR. Users will enjoy almost instant app responses and smooth streaming of videos and other media.
+                            5G's high data transmission speed and capacity can enhance the performance of data-heavy apps, like those used for streaming 4K videos or AR/VR. Users will enjoy almost instant app responses and smooth streaming of videos and other media.
                         </li>
                         <br>
                         <li><strong>Low delay:</strong>
@@ -106,21 +66,21 @@
                         </li>
                     </ul>
                 </p>
-                <p>As 5G networks become more widespread, they will significantly influence the future of applications. All applications relying on high bandwidth and low latency will become easier on the user.</p>
+                <p>5G networks will significantly influence the future of applications. All applications relying on high bandwidth and low latency will become easier on the user.</p>
             </div>
-            <div class="third-point" id="third-point">
+            <div class="second-point" id="second-point">
                 <h2>Augmented Reality (AR) and Virtual Reality (VR)</h2>
-                <img src="img/arvr.jpg">
+                <img src="img/ps/arvr.jpg">
                 <p>
-                    Augmented Reality (AR) and Virtual Reality (VR) technologies are introducing new dimensions to app experiences. AR technology imposes artificial images and objects on real-life objects. AR apps overlay digital information or graphics onto the real world, enhancing user interaction with their physical environment. On the other hand, VR creates an artificial environment. VR apps create immersive, simulated environments, often used in gaming or virtual tours. In the future, applications will explore AR and VR technologies in the user interface for more interactivity and interconnection.
+                    Augmented Reality (AR) and Virtual Reality (VR) technologies are introducing new dimensions to app experiences. AR technology imposes artificial images and objects on real-life objects. AR apps overlay digital information or graphics onto the real world, enhancing user interaction with their physical environment. On the other hand, VR creates an artificial environment. VR apps create immersive, simulated environments, often used in gaming or virtual tours.
                     The potential applications of AR and VR are vast, revolutionizing how we interact with digital content across numerous fields.
                     <br>
-                    AR and VR are no longer just for gamers. AR and VR expansion is pushing the boundaries of app experiences beyond gaming into various sectors including:
+                    AR and VR expansion is pushing the boundaries of app experiences beyond gaming into various sectors including:
                     <br><br>
                     <ul>
                         <li><strong>Entertainment:</strong>
                             <br><br>
-                            AR and VR can make entertainment more engaging and fun. A great example is the Meta’s Oculus Quest 2. It allows users to work out, explore new countries, and watch concerts created in an immersive world—all from their living room.
+                            AR and VR can make entertainment more fun. A great example is the Meta’s Oculus Quest 2. It allows users to work out, explore new countries, and watch concerts created in an immersive world—all from their living room.
                         </li>
                         <br>
                         <li><strong>Social Networks:</strong>
@@ -130,19 +90,19 @@
                         <br>
                         <li><strong>Interior Design:</strong>
                             <br><br>
-                            Apps like Houzz and IKEA Place allow users to visualize furniture and decoration in their homes through augmented reality, making interior design more accessible and fun.
+                            Apps like Houzz and IKEA Place allow users to visualize furniture and decoration in their homes through augmented reality, making interior design more accessible.
                         </li>
                         <br>
                     </ul>
                     <ul>
                         <li><strong>Education:</strong>
                             <br><br>
-                            AR/VR in education is transforming learning experiences, making them more fun and engaging. For example, students can take 3D historical journeys or access virtual science labs, making abstract concepts more tangible.
+                            AR/VR in education is transforming learning experiences, making them more engaging. For example, students can take 3D historical journeys or access virtual science labs, making abstract concepts more tangible.
                         </li>
                         <br>
                         <li><strong>Retail:</strong>
                             <br><br>
-                            The retail industry benefits from AR by providing customers with virtual fitting rooms with virtual clothing try-on features.  This allows customers to see how clothes look on them without physically trying them on. Interactive product demos are also implemented, enhancing the online shopping experience, increasing engagement and reducing return rates.
+                            The retail industry benefits from AR by providing customers with virtual fitting rooms with virtual clothing try-on features. Interactive product demos are also implemented, reducing return rates.
                         </li>
                         <br>
                         <li><strong>Travel:</strong>
@@ -151,110 +111,13 @@
                         </li>
                     </ul>
                 </p>
-                <p>Apple’s Vision Pro and Meta’s Ray-Ban smart glasses are two strong indicators the future of mobile apps will involve AR/VR. As smartphone hardware improves and AR/VR technologies become more accessible, we expect to see a surge in innovative applications that blend the boundaries between our digital and physical worlds, creating engaging and immersive experiences.</p>
+                <p>Apple’s Vision Pro and Meta’s Ray-Ban smart glasses are two strong indicators the future of mobile apps will involve AR/VR. As smartphone hardware improves and AR/VR technologies become more accessible, we expect to see a surge in innovative applications that blend the boundaries between our digital and physical worlds.</p>
             </div>
-            <div class="fourth-point" id="fourth-point">
-                <h2>Internet of Things (IoT)</h2>
-                <img src="img/iot.png">
-                <p>
-                    The Internet of Things (IoT) refers to the network of interconnected devices such as smart homes, wearables, and connected vehicles. IoT-enabled applications serve as an interface for users to control and monitor these IoT devices. These applications would act as control centers for these devices. As the IoT devices grow, mobile applications will play a critical role in controlling this technology, driving convenience, optimization, customization, efficiency, and innovation across various sectors. The increase in the number of IoT devices is creating new ways for mobile apps to be developed further for smart homes, connected vehicles, wearable devices, and industrial applications in a way that has not been done before.
-                    <br><br>
-                    <ul>
-                        <li><strong>Healthcare:</strong>
-                            <br><br>
-                            Remote patient monitoring through IoT devices that track health metrics such as heart rate, blood pressure, and glucose levels.
-                        </li>
-                        <br>
-                        <li><strong>Fintech:</strong>
-                            <br><br>
-                            Fraud detection via predictive analytics that analyses transaction data for unusual patterns.
-                        </li>
-                        <br>
-                        <li><strong>Logistics:</strong>
-                            <br><br>
-                            Tracking delivery vehicles in real-time to optimize routes and reduce fuel consumption.
-                        </li>
-                        <br>
-                    </ul>
-                    <ul>
-                        <li><strong>Smart Homes:</strong>
-                            <br><br>
-                            Managing energy usage by monitoring connected devices such as thermostats and lights.
-                        </li>
-                        <br>
-                        <li><strong>Industrial:</strong>
-                            <br><br>
-                            Industrial IoT apps enable remote monitoring and management of manufacturing processes.
-                        </li>
-                    </ul>
-                </p>
-            </div>
-            <div class="fifth-point" id="fifth-point">
-                <h2>Progressive Web Apps (PWA)</h2>
-                <img src="img/pwa.png">
-                <p>
-                    Progressive Web Apps (PWA) combine the best of web and mobile applications. PWAs are web applications that behave like normal websites with the feel of native applications within the system. Apps like this allow users to enjoy the benefits of web apps and native apps simultaneously and deliver an experience on the same level as these apps. The content is displayed correctly on different devices irrespective of their screen sizes and they offer advanced features like push notifications, hardware access, offline functionality, rapid site loading and so on.
-                    <br><br>
-                    <ul>
-                        <li><strong>Easier Development and Management:</strong>
-                            <br><br>
-                            Usage of PWAs will be more widespread in the future as they are inexpensive to build and manage compared to native apps, which makes them suitable for business entities that want to extend their market/customer reach without the challenge of creating and updating distinct native apps for each platform.
-                        </li>
-                        <br>
-                        <li><strong>Work on Any Platform:</strong>
-                            <br><br>
-                            PWAs are built with web application development technologies that allow them to work on any device or platform with a browser. 
-                        </li>
-                    </ul>
-                </p>
-            </div>
-            <div class="sixth-point" id="sixth-point">
-                <h2>Blockchain Technology</h2>
-                <img src="img/blockchain.jpg">
-                <p>
-                    Blockchain technology is important for transparency and security enhancement in app development. By leveraging blockchain technology's decentralized and secure nature, developers can create apps that can ensure data integrity and build trust among users with enhanced transparency, security, and efficiency. Blockchain technology is now featured as a critical element of app development, particularly in businesses that require robust protection of information and high transparency and security such as finance, health, and supply chain sectors.
-                    <br><br>
-                    <ul>
-                        <li><strong>Enhanced Security:</strong>
-                            <br><br>
-                            Blockchain’s decentralized nature makes it extremely difficult for hackers to alter or manipulate data.
-                        </li>
-                        <br>
-                        <li><strong>Transparency:</strong>
-                            <br><br>
-                            Every transaction is recorded on a public ledger, providing an immutable record that can be audited at any time.
-                        </li>
-                        <br>
-                        <li><strong>Efficiency:</strong>
-                            <br><br>
-                            Smart contracts can automate and streamline financial operations, reducing the need for intermediaries.
-                        </li>
-                        <br>
-                    </ul>
-                    <ul>
-                        <li><strong>Traceability:</strong>
-                            <br><br>
-                            Blockchain enables end-to-end visibility of goods as they move through the supply chain, ensuring authenticity.
-                        </li>
-                        <br>
-                        <li><strong>Fraud Prevention:</strong>
-                            <br><br>
-                            The transparent and immutable ledger helps prevent counterfeiting and fraud.
-                        </li>
-                        <br>
-                        <li><strong>Speed:</strong>
-                            <br><br>
-                            Automating processes through smart contracts can reduce delays and increase operational efficiency.
-                        </li>
-                    </ul>
-                </p>
-                <p>As the understanding of blockchain evolves beyond cryptocurrencies, its integration into apps is poised to become one of the major app development trends of the next few years, promising transformative impacts across various industries by ensuring robust security measures and unparalleled transparency.</p>
-            </div>
-            <div class="seventh-point" id="seventh-point">
+            <div class="third-point" id="third-point">
                 <h2>Cross-Platform App Development</h2>
-                <img src="img/cpad.webp">
+                <img src="img/ps/cpad.webp">
                 <p>
-                    Cross-platform app development is a strategy that allows developers to create applications that can run on multiple operating systems using a single codebase. This approach contrasts with native app development, where separate codebases are required for each platform, for example, iOS and Android. Cross-platform development aims to streamline the development process, reduce costs, and ensure a consistent user experience across different devices.
+                    Cross-platform app development is a strategy that allows developers to create applications that can run on multiple operating systems using a single codebase. This approach contrasts with native app development, where separate codebases are required for each platform. Cross-platform development aims to streamline the development process, reduce costs, and ensure a consistent user experience across different devices.
                     <br><br>
                     <ul>
                         <li><strong>Reduced Development Time and Costs:</strong>
@@ -264,93 +127,29 @@
                         <br>
                         <li><strong>Unified User Experience:</strong>
                             <br><br>
-                            Cross-platform frameworks often offer tools and components that help maintain a consistent user experience across different devices and operating systems.
+                            Cross-platform frameworks offer tools and components that help maintain a consistent user experience across different devices and operating systems.
                         </li>
                         <br>
                     </ul>
                     <ul>
                         <li><strong>Faster Updates and Iterations:</strong>
                             <br><br>
-                            With a single codebase, updating and iterating on features becomes faster and more manageable. Developers can push changes across all platforms simultaneously, ensuring that all users receive updates at the same time.
+                            With a single codebase, updating and iterating features becomes faster and more manageable. Developers can push changes across all platforms simultaneously, ensuring that all users receive updates at the same time.
                         </li>
                         <br>
                         <li><strong>Wider Reach:</strong>
                             <br><br>
-                            Developing apps for multiple platforms allows businesses to reach a broader audience. Rather than focusing on a single operating system, developers can target both iOS and Android users with the same application.
+                            Developing apps for multiple platforms allows businesses to reach a broader audience. Rather than focusing on a single operating system, developers can target multiple operating systems with the same application.
                         </li>
                     </ul>
                 </p>
                 <p>Cross-platform app development is likely to continue influencing the future of app development by promoting efficiency and expanding reach.</p>
             </div>
-            <div class="eighth-point" id="eighth-point">
-                <h2>Cloud-Driven Apps</h2>
-                <img src="img/cloud.jpg">
-                <p>
-                    Cloud-driven apps are changing the way we use technology by providing easy access to our data from anywhere and at any time. These apps store information on remote servers (known as the cloud) instead of the device itself, which means you can retrieve your files, photos, and other content using any device with an internet connection. Developers can take advantage of the cloud services to do most of the labour intensive computation which will mean that the performance of the application itself is not significantly hampered by excessive load.
-                    <br><br>
-                    <ul>
-                        <li><strong>Data Accessibility Across Devices:</strong>
-                            <br><br>
-                            Whether you’re using a smartphone, tablet, or computer, cloud-driven apps make it simple to access your files and information from anywhere across multiple devices, ensuring data consistency. You don’t have to worry about transferring data manually or being tied to a specific device.
-                        </li>
-                        <br>
-                        <li><strong>Scalability:</strong>
-                            <br><br>
-                            Cloud infrastructure allows mobile apps to adjust their capacity easier as needed according to user demand. This means that during busy periods, such as holidays or sales events, the app can handle a large number of users without slowing down or crashing.
-                        </li>
-                        <br>
-                    </ul>
-                    <ul>
-                        <li><strong>Better App Performance:</strong>
-                            <br><br>
-                            Cloud-driven apps enhances performance by offloading heavy computing tasks to powerful cloud servers.
-                        </li>
-                        <br>
-                        <li><strong>Collaborative Experience:</strong>
-                            <br><br>
-                            The cloud facilitates collaboration for apps requiring multiple users to work on shared data.
-                        </li>
-                    </ul>
-                </p>
-                <p>With advancements in cloud technology, cloud-driven apps are set to dominate the future of mobile technology.</p>
-            </div>
-            <div class="ninth-point" id="ninth-point">
-                <h2>Edge Computing</h2>
-                <img src="img/edge.webp">
-                <p>
-                    Edge computing refers to the decentralization of data processing, moving it closer to the source of data. Edge computing can significantly enhance performance and functionality. Instead of sending data to distant servers, edge computing brings the processing power closer to the source, whether it’s on the device itself or nearby servers. This enables mobile apps to perform tasks and analyse data instantly, without any delay. Apps that require real-time processing and low latency can benefit significantly from edge computing. By processing data locally on the device or nearby edge servers, these apps can respond faster and function reliably, even with intermittent connectivity. In addition, edge computing can enhance privacy and security by keeping sensitive data on the device.
-                    <br><br>
-                    <ul>
-                        <li><strong>Real-Time Processing:</strong>
-                            <br><br>
-                            Data is processed locally on the device or nearby edge servers, reducing latency and ensuring swift responses.
-                        </li>
-                        <br>
-                        <li><strong>Enhanced Privacy/Security:</strong>
-                            <br><br>
-                            With data processing occurring closer to the user, sensitive information doesn’t need to travel long distances to centralized cloud servers. This minimizes exposure to potential breaches and enhances data security.
-                        </li>
-                        <br>
-                    </ul>
-                    <ul>
-                        <li><strong>Reduced Bandwidth Usage:</strong>
-                            <br><br>
-                            By processing data locally, less information needs to be transmitted over networks, leading to reduced bandwidth consumption and cost savings.
-                        </li>
-                        <br>
-                        <li><strong>Reliability:</strong>
-                            <br><br>
-                            Even with intermittent internet connectivity, edge computing ensures that critical functionalities of mobile apps remain operational.
-                        </li>
-                    </ul>
-                </p>
-                <p>The integration of edge computing into mobile app development not only improves performance but also addresses important privacy and security issues. This technology empowers developers to create more responsive, reliable, and secure applications for the modern world. As the demand for real-time, high-performing apps grows, edge computing will play an increasingly vital role.</p>
-            </div>
-            <div class="tenth-point" id="tenth-point">
+            <div class="fourth-point" id="fourth-point">
                 <h2>Quantum Computing</h2>
-                <img src="img/quantum.jpg">
+                <img src="img/ps/quantum.jpg">
                 <p>
-                    Quantum computing, a cutting-edge technology based on the principles of quantum physics, offers computing capabilities far exceeding current systems. Its advanced computing abilities allow mobile applications to handle complicated calculations incredibly quickly, pushing the limits of what can be done with real-time data processing. For instance, quantum encryption could significantly enhance app security by making data virtually unhackable. Quantum algorithms could also improve AI in mobile apps, leading to more efficient machine-learning processes and better personalization. Quantum computing’s potential for simultaneous processing could expedite complex computations, enhancing performance for data-intensive apps.
+                    Quantum computing, a cutting-edge technology based on the principles of quantum physics, offers computing capabilities far exceeding current systems. Its advanced computing abilities allow mobile applications to handle complicated calculations incredibly quickly, pushing the limits of what can be done with real-time data processing. Quantum computing’s potential for simultaneous processing could expedite complex computations, enhancing performance for data-intensive apps.
                     <br><br>
                     <ul>
                         <li><strong>Enhanced Performance:</strong>
@@ -360,7 +159,7 @@
                         <br>
                         <li><strong>Quantum Encryption:</strong>
                             <br><br>
-                            Security is a big concern for mobile apps. Quantum encryption methods offer a higher level of security by using the principles of quantum mechanics to create unbreakable codes. This makes mobile transactions and sensitive data much safer from cyber threats.
+                            Quantum encryption methods offer a higher level of security by using the principles of quantum mechanics to create unbreakable codes. This makes mobile transactions and sensitive data virtually unhackable.
                         </li>
                         <br>
                     </ul>
@@ -390,7 +189,7 @@
             </ul>
         </footer>
         
-        <script src="app.js"></script>
+        <script src="app1.js"></script>
     </body>
 </html>
 
